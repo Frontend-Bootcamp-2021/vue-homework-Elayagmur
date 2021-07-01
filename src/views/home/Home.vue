@@ -3,7 +3,7 @@
     <h2 class="page-header">Home</h2>
     <header class="home__header">
       <h3 class="home__title">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, dolor.
+       Hello I am here to tell you about pets like dogs..
       </h3>
     </header>
   </div>

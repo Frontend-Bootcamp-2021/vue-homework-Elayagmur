@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="page-header">Detail</h2>
+    <h2 class="page-header">BREEDS LIST</h2>
     <ListingComponent :data="listings" @selected="alertBox" />
   </div>
 </template>
@@ -19,14 +19,13 @@ export default {
     onUpdated(() => console.log("Updated: 🔥 Detail Component"));
 
     let listings = ref([]);
-
     setTimeout(() => {
       listings.value = [
-        { id: 1, name: "🥛 Milk" },
-        { id: 2, name: "🥖 Bread" },
-        { id: 3, name: "🥚 Egg" },
+        { id: 1, name: "Affenpinscher" },
+        { id: 2, name: "Bluetick" },
+        { id: 3, name: "Otterhound" },
       ];
-    }, 5000);
+    }, 3000);
 
     const alertBox = (select) => alert(`You selected: ${select}`);
 

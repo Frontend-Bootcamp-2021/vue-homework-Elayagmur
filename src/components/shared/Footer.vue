@@ -1,7 +1,6 @@
 <template>
   <footer class="footer">
-    Vue Vite Demo
-    <br />
+   
     <button class="footer__surprise" v-show="hasButton" @click="surprise">
       If you click me you will see something
     </button>
